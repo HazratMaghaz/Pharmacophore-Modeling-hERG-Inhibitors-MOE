@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python/cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.log
+
+# Local raw exports or backup zips
+*.zip
+
+# Keep MOE project files tracked because they are part of this portfolio repo
+!moe_databases/*.mdb
+!models/*.ph4
+!models/*.ph4que
