@@ -19,19 +19,6 @@
 
 <br><br>
 
-<a href="https://hazratmaghaz.tech">
-  <img src="https://img.shields.io/badge/Website-hazratmaghaz.tech-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-</a>
-<a href="https://github.com/HazratMaghaz">
-  <img src="https://img.shields.io/badge/GitHub-HazratMaghaz-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-<a href="https://www.linkedin.com/in/hazrat-maghaz-6967b9374/">
-  <img src="https://img.shields.io/badge/LinkedIn-Hazrat%20Maghaz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="mailto:maghazbiochemist@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-</a>
-
 </div>
 
 ---
