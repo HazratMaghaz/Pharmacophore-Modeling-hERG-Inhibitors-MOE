@@ -1,9 +1,8 @@
-````markdown
 <div align="center">
 
 # hERG Pharmacophore Modeling using MOE
 
-### MOE-based pharmacophore modeling workflow for hERG liability screening and computational drug-discovery portfolio demonstration
+### A MOE-based computational drug-discovery workflow for pharmacophore modeling, virtual screening, and hERG liability interpretation
 
 <br>
 
@@ -15,12 +14,7 @@
 
 <br>
 
-<a href="#project-overview">Overview</a> •
-<a href="#workflow-summary">Workflow</a> •
-<a href="#visual-results">Visual Results</a> •
-<a href="#key-results">Key Results</a> •
-<a href="#repository-structure">Repository</a> •
-<a href="#author">Author</a>
+<a href="#project-overview">Project Overview</a> • <a href="#workflow-summary">Workflow</a> • <a href="#key-results">Key Results</a> • <a href="#repository-structure">Repository</a> • <a href="#author">Author</a>
 
 </div>
 
@@ -28,26 +22,23 @@
 
 ## Project Overview
 
-This repository presents a structured **MOE-based pharmacophore modeling workflow** for evaluating potential **hERG inhibitor liability** using small-molecule conformer databases, pharmacophore feature selection, virtual screening, hit inspection, and model-performance interpretation.
+This repository presents a structured **MOE-based pharmacophore modeling workflow** for evaluating potential **hERG inhibitor liability** using small-molecule conformer databases, pharmacophore feature selection, virtual screening, and model-performance interpretation.
 
-The project is organized as a clean **computational drug-discovery portfolio example**. It focuses on the practical steps used in **Molecular Operating Environment (MOE)** for pharmacophore model construction and virtual screening.
+The project is designed as a clean **computational drug-discovery portfolio example**, showing how pharmacophore models can be constructed, screened, inspected, and evaluated inside **Molecular Operating Environment (MOE)**.
 
 ---
 
 ## Why This Project Matters
 
-The **hERG potassium channel** is an important safety-related target in drug discovery because unwanted hERG inhibition may be associated with cardiotoxicity risk.
-
-Early computational screening can help researchers identify compounds with possible hERG-related activity patterns before expensive downstream experimental testing.
+The **hERG potassium channel** is an important safety-related target in drug discovery because unintended hERG inhibition can be associated with cardiotoxicity risk. Early computational screening can help identify compounds with possible hERG-related activity patterns before expensive downstream experimental testing.
 
 This project demonstrates a practical cheminformatics workflow for:
 
-- Building a pharmacophore model in MOE
-- Preparing conformer databases
-- Screening molecules against selected pharmacophore features
-- Inspecting pharmacophore-matched hits
-- Summarizing model performance using confusion-matrix metrics
-- Organizing MOE-generated outputs in a clean portfolio-style repository
+* Building a pharmacophore model in MOE
+* Screening conformer databases
+* Inspecting pharmacophore-matched hits
+* Summarizing model performance using confusion-matrix metrics
+* Organizing MOE outputs into a reproducible portfolio-style repository
 
 ---
 
@@ -61,11 +52,13 @@ flowchart LR
     D --> E[Virtual Screening]
     E --> F[Hit Inspection]
     F --> G[Model Evaluation]
-````
+```
 
 ---
 
 ## Main Tasks
+
+The workflow includes the following major steps:
 
 | Step                          | Description                                                          |
 | ----------------------------- | -------------------------------------------------------------------- |
@@ -83,31 +76,39 @@ flowchart LR
 
 ### Selected Pharmacophore Model Features
 
-<p align="center">
-  <img src="results/figures/pharmacophore_model_features.png" alt="Pharmacophore Model Features" width="750">
-</p>
+> Add your main pharmacophore model image here.
+
+```markdown
+![Pharmacophore Model Features](results/figures/pharmacophore_model_features.png)
+```
+
+![Pharmacophore Model Features](results/figures/pharmacophore_model_features.png)
 
 ---
 
 ### Packed Conformation Hits
 
-<p align="center">
-  <img src="results/figures/packed_conformation_hits.jpg" alt="Packed Conformation Hits" width="750">
-</p>
+```markdown
+![Packed Conformation Hits](results/figures/packed_conformation_hits.jpg)
+```
+
+![Packed Conformation Hits](results/figures/packed_conformation_hits.jpg)
 
 ---
 
 ### Screening Hits
 
-<p align="center">
-  <img src="results/figures/screening_hits.jpg" alt="Screening Hits" width="750">
-</p>
+```markdown
+![Screening Hits](results/figures/screening_hits.jpg)
+```
+
+![Screening Hits](results/figures/screening_hits.jpg)
 
 ---
 
 ## Selected Pharmacophore Features
 
-The selected pharmacophore model contains three main features:
+The selected pharmacophore model contains three key features:
 
 | Feature | Type                   | Radius |
 | ------- | ---------------------- | -----: |
@@ -115,7 +116,7 @@ The selected pharmacophore model contains three main features:
 | F2      | Hydrophobic feature    |    1.3 |
 | F3      | Acceptor feature       |    1.0 |
 
-These features represent the chemical interaction pattern used by the pharmacophore model to identify compounds with potential hERG-related activity.
+These features represent the spatial and chemical interaction pattern used by the model to identify compounds with potential hERG-related activity.
 
 ---
 
@@ -163,7 +164,7 @@ Accuracy = 80%
 | `results/figures/pharmacophore_model_features.png` | Visual representation of selected pharmacophore features |
 | `results/figures/packed_conformation_hits.jpg`     | Hit inspection from packed conformers                    |
 | `results/figures/screening_hits.jpg`               | Screening output visualization                           |
-| `results/tables/model_evaluation_summary.txt`      | Summary of model evaluation metrics                      |
+| `results/tables/model_evaluation_summary.txt`      | Model evaluation summary                                 |
 
 ---
 
@@ -215,7 +216,7 @@ Accuracy = 80%
 | Core method                 | Pharmacophore modeling                         |
 | Screening strategy          | Conformer database screening                   |
 | Analysis type               | hERG liability interpretation                  |
-| Output type                 | MOE models, MOE databases, figures, and tables |
+| Output type                 | MOE models, MOE databases, figures, tables     |
 | Repository purpose          | Computational drug-discovery portfolio project |
 
 ---
@@ -285,7 +286,6 @@ This repository is available under the license included in the `LICENSE` file.
 ### If this repository helped you understand pharmacophore modeling, feel free to star the project.
 
 ![GitHub stars](https://img.shields.io/github/stars/HazratMaghaz/Pharmacophore-Modeling-hERG-Inhibitors-MOE?style=social)
-![GitHub forks](https://img.shields.io/github/forks/HazratMaghaz/Pharmacophore-Modeling-hERG-Inhibitors-MOEstyle=social)
+![GitHub forks](https://img.shields.io/github/forks/HazratMaghaz/Pharmacophore-Modeling-hERG-Inhibitors-MOE?style=social)
 
 </div>
-```
